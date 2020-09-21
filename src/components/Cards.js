@@ -1,33 +1,28 @@
 import React from 'react';
-import './Cards.css';
 import CardItem from './CardItem';
+import MediaCard from './CardItem'
+import './Cards.css'
 
 function Cards() {
     return (
         <div className='cards'>
-            <h1>ENGAGE YOURSELF</h1>
+            <h1 className='cards__title'>ENGAGE YOURSELF</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
-                    <ul className='cards__items'>
-                        <CardItem
-                            src='images/img-9.jpg'
-                            text='Join as a Developer and in one of the finest community in your area'
-                            path='/services'
-                        />
-                        <CardItem
-                            src='images/img-2.jpg'
-                            text='Learn to Desgin what you think from the best Desginers'
-                            path='/services'
-                        />
-                        <CardItem
-                            src='images/img-2.jpg'
-                            text='Learn to Desgin what you think from the best Desginers'
-                            path='/services'
-                        />
-                    </ul>
+                    <MediaCard
+                        src="https://ncmconferences.com/wp-content/uploads/2019/10/ARUK-200318-526-of-760.jpg"
+                        title="DEVELOPERS" />
+                    <MediaCard
+                        src="https://blog.hubspot.com/hubfs/Management-Skills.jpg"
+                        title="DESGINERS"
+                    />
+                    <MediaCard
+                        src="https://miro.medium.com/max/3356/1*_j0jMB4y1yc9ZDl_RtvXhw.jpeg"
+                        title="MANAGERS"
+                    />
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
 
