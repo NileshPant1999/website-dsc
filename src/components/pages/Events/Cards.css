@@ -1,0 +1,56 @@
+
+.event__card{
+    width: 40%;
+    text-align: center;
+    color: black;
+}
+
+.event__heading{
+    margin-bottom:20px;
+
+}
+
+.upcoming__card{
+    color: black;
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 50pxpx;
+}
+
+.event__image{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 60px;
+    margin-bottom: 20px;
+
+}
+
+.infoevent__card{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+}
+
+.infoevent__list{
+    list-style-type: none;
+
+}
+
+@media screen and (max-width: 768px){
+    .event__card{
+        width: 80%;
+        padding-bottom: 50px;
+    }
+    .event__image{
+        width: 100%;
+        object-fit: contain;
+    }
+    p{
+        font-size: 14px;
+    }
+    .infoevent__card{
+        font-size: 10px;
+    }
+}

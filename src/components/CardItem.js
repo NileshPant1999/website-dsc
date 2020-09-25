@@ -28,10 +28,10 @@ export default function MediaCard(props) {
                 </CardContent>
             </CardActionArea>
             <CardActions>
-                <Button size="small" color="primary">
-                    Join us
-        </Button>
-                <Button size="small" color="primary">
+                <Button size="small" color="secondry">
+                    <a href='https://forms.gle/GW65YGiKBrrzvtaW6' target='_blank'>Join Us</a>
+                </Button>
+                <Button size="small" color="secondry">
                     Learn More
         </Button>
             </CardActions>

@@ -1,0 +1,33 @@
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 80px;
+    height: max-content;
+    color: black;
+}
+
+.services__body{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.services1{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.services__info{
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+    .services__body{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
