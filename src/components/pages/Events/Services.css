@@ -4,6 +4,8 @@
     padding-top: 80px;
     height: max-content;
     color: black;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
 }
 
 .services__body{
@@ -17,6 +19,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+
 }
 
 .services__info{

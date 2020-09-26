@@ -55,7 +55,7 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link
-                                to='/products'
+                                to='/Members'
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
@@ -71,18 +71,8 @@ function Navbar() {
                                 About
               </Link>
                         </li>
-
-                        <li>
-                            <Link
-                                to='/sign-up'
-                                className='nav-links-mobile'
-                                onClick={closeMobileMenu}
-                            >
-                                Join Us
-              </Link>
-                        </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>JOIN US</Button>}
+                    {button && <Button buttonSize='btn--medium' buttonStyle='btn--outline'>  <a className='join__us' href="https://forms.gle/hKq9gZWAhu6YoQDb6" target="_blank">Join</a> </Button>}
                 </div>
             </nav>
         </>

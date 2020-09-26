@@ -9,7 +9,7 @@ export function Cards(props) {
         <div className='event__card'>
             <h1 className='event__heading'>{props.title}</h1>
             <img className='event__image' src={props.src} />
-            <p>{props.desc}</p>
+            <p className='events__para'>{props.desc}</p>
 
         </div>
     )
@@ -20,9 +20,9 @@ export function InfoCards(props) {
     return (
         <div className='infoevent__card'>
             <ul className='infoevent__list'>
-                <li><h1>Number of attendees- {props.num}</h1></li>
-                <li><h1>Date of Event - {props.date}</h1></li>
-                <li><h1>Host Speaker - {props.speaker}</h1></li>
+                <li><h1 className='infoevent__heading' >Number of attendees- {props.num}</h1></li>
+                <li><h1 className='infoevent__heading'>Date of Event - {props.date}</h1></li>
+                <li><h1 className='infoevent__heading'>Host Speaker - {props.speaker}</h1></li>
             </ul>
         </div>
     )
