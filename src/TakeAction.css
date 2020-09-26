@@ -6,6 +6,8 @@
     padding-bottom: 150px;
 }
 
+.take_actions
+
 .text-block {
     position: absolute;
     bottom: 200px;
@@ -52,5 +54,6 @@
 
 .take_actions{
     margin-top: 50px;
+
 }
 
