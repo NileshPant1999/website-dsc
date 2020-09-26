@@ -1,5 +1,6 @@
 import React from 'react'
 import './Cards.css'
+import Fade from 'react-reveal/Fade';
 
 function Cards() {
     return (

@@ -1,0 +1,22 @@
+.nilesh{
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  font-weight: 100;
+}
+
+.product__about{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+   font-family: 'Barlow', sans-serif;
+   font-weight: 200;
+}
+
+.product__para{
+    width: 60%;
+    margin-top: 20px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
