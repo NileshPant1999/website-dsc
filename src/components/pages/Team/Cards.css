@@ -1,5 +1,6 @@
 .avatar__image{
     border-radius:200px;
+    width: 100%;
 }
 
 .fa {
@@ -22,6 +23,11 @@
   .fa-instagram {
     background: #125688;
     color: white;
+  }
+
+  .fa-github {
+    background:rgb(59, 57, 57);
+    color:white;
   }
 
   .member__name{

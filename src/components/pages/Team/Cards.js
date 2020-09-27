@@ -10,6 +10,7 @@ function Cards(props) {
             <h3>{props.title}</h3>
             <a href="#" class="fa fa-linkedin"></a>
             <a href='#' class='fa fa-instagram'></a>
+            <a href='#' class="fa fa-github"></a>
         </div>
     )
 }
